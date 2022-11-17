@@ -1,7 +1,44 @@
 .App {
-  text-align: center;
+  background-color: rgb(35, 212, 224);
+  min-height: 100vh;
+}
+
+.n_nav {
+  text-transform: uppercase;
 }
 
 
+.main {
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardd {
+  border: 1px solid blanchedalmond;
+  width: 26rem;
+  height: 20rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgb(22, 46, 124);
+  overflow: hidden;
+}
+
+img {
+  border-radius: 10px; 
+  width: 28rem;
+  min-height: 15.2rem; 
+  max-height: 15.2rem;
+}
 
 
+.image {
+  width: 100%;
+  padding: 0 .8rem .8rem .8rem;
+  height: 16rem;
+}
