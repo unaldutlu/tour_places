@@ -18,12 +18,12 @@ function Navbarr() {
           bg='dark'
           expand={expand}
           variant='dark'
-          className='mb-3'
+          className='navbarr mb-3'
         >
           <Container fluid>
             <Navbar.Brand
               href='#'
-              className='tp_nav text-uppercase px-4 text-danger'
+              className='tp_nav ps-3 text-uppercase text-danger'
             >
               tour places
             </Navbar.Brand>
