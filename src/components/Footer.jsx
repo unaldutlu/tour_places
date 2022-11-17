@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className='bg-dark mt-3'>
-      <div className='container'>
+      <div className='container-fluid px-5'>
         <div className='row d-flex align-items-baseline'>
           <div className='col-md-4 text-muted text-center text-lg-start py-1 py-md-3'>
             Copyright &copy; New Design 2022
@@ -33,7 +33,7 @@ function Footer() {
               Privacy Policy
             </a>
             <a href='#' className='fst-italic text-decoration-none'>
-              Home page <i className='bi bi-arrow-up-circle-fill'></i>
+              Home page <i id="icon" className='bi bi-arrow-up-circle-fill'></i>
             </a>
           </div>
         </div>
